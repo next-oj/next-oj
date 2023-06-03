@@ -1,0 +1,10 @@
+node_modules
+
+logs
+*.log
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+.vscode
+.husky
+
+TODO.md

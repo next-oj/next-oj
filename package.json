@@ -1,5 +1,30 @@
 {
   "name": "next-oj",
+  "version": "0.1.0",
+  "packageManager": "pnpm@8.3.1",
+  "type": "module",
   "description": "可拓展的下一代 Online Judge 框架",
-  "license": "MIT"
+  "scripts": {
+    "bootstrap": "sh scripts/bootstrap.sh"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "Zihan Hu",
+  "license": "MIT",
+  "homepage": "https://github.com/next-oj/next-oj",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/next-oj/next-oj.git"
+  },
+  "bugs": {
+    "url": "https://github.com/next-oj/next-oj/issues"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.26.1",
+    "@commitlint/cli": "^17.6.5",
+    "@commitlint/config-conventional": "^17.6.5",
+    "husky": "^8.0.3",
+    "typescript": "^5.1.3"
+  }
 }
